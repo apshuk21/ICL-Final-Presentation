@@ -1,0 +1,502 @@
+[
+  {
+    "id": "T001",
+    "party": "AlphaCorp",
+    "counter_party": "BetaBank",
+    "trade_date": "2025-06-22",
+    "matching_status": "Matched",
+    "instrument": "Bond",
+    "notional_amount": 1000000,
+    "currency": "USD"
+  },
+  {
+    "id": "T002",
+    "party": "ZenithFinance",
+    "counter_party": "GammaLtd",
+    "trade_date": "2025-04-25",
+    "matching_status": "Unmatched",
+    "instrument": "FX Forward",
+    "notional_amount": 500000,
+    "currency": "EUR"
+  },
+  {
+    "id": "T003",
+    "party": "OrionPartners",
+    "counter_party": "SigmaInvest",
+    "trade_date": "2025-07-08",
+    "matching_status": "Affirmed",
+    "instrument": "Equity",
+    "notional_amount": 250000,
+    "currency": "INR"
+  },
+  {
+    "id": "T004",
+    "party": "DeltaHoldings",
+    "counter_party": "LambdaGroup",
+    "trade_date": "2025-05-14",
+    "matching_status": "Stale",
+    "instrument": "Interest Rate Swap",
+    "notional_amount": 750000,
+    "currency": "GBP"
+  },
+  {
+    "id": "T005",
+    "party": "NimbusTrading",
+    "counter_party": "OmicronBank",
+    "trade_date": "2025-06-05",
+    "matching_status": "Active",
+    "instrument": "Commodity Future",
+    "notional_amount": 300000,
+    "currency": "JPY"
+  },
+  {
+    "id": "T006",
+    "party": "VertexCapital",
+    "counter_party": "NovaBank",
+    "trade_date": "2025-05-29",
+    "matching_status": "Active",
+    "instrument": "Credit Default Swap",
+    "notional_amount": 600000,
+    "currency": "USD"
+  },
+  {
+    "id": "T007",
+    "party": "HeliosMarkets",
+    "counter_party": "TridentFinance",
+    "trade_date": "2025-06-15",
+    "matching_status": "Matched",
+    "instrument": "Equity Option",
+    "notional_amount": 450000,
+    "currency": "CAD"
+  },
+  {
+    "id": "T008",
+    "party": "AstraGlobal",
+    "counter_party": "EchoHoldings",
+    "trade_date": "2025-07-01",
+    "matching_status": "Unmatched",
+    "instrument": "Bond",
+    "notional_amount": 800000,
+    "currency": "EUR"
+  },
+  {
+    "id": "T009",
+    "party": "LumenTrust",
+    "counter_party": "FalconSecurities",
+    "trade_date": "2025-04-21",
+    "matching_status": "Stale",
+    "instrument": "FX Swap",
+    "notional_amount": 550000,
+    "currency": "INR"
+  },
+  {
+    "id": "T010",
+    "party": "CobaltExchange",
+    "counter_party": "TitanFinance",
+    "trade_date": "2025-06-09",
+    "matching_status": "Affirmed",
+    "instrument": "Interest Rate Future",
+    "notional_amount": 700000,
+    "currency": "GBP"
+  },
+  {
+    "id": "T011",
+    "party": "QuantumInvest",
+    "counter_party": "OrbitBank",
+    "trade_date": "2025-05-20",
+    "matching_status": "Matched",
+    "instrument": "FX Forward",
+    "notional_amount": 400000,
+    "currency": "JPY"
+  },
+  {
+    "id": "T012",
+    "party": "SterlingTrust",
+    "counter_party": "VegaMarkets",
+    "trade_date": "2025-06-01",
+    "matching_status": "Affirmed",
+    "instrument": "Bond",
+    "notional_amount": 950000,
+    "currency": "USD"
+  },
+  {
+    "id": "T013",
+    "party": "AuroraCapital",
+    "counter_party": "TerraFinance",
+    "trade_date": "2025-04-18",
+    "matching_status": "Unmatched",
+    "instrument": "Commodity Swap",
+    "notional_amount": 650000,
+    "currency": "CAD"
+  },
+  {
+    "id": "T014",
+    "party": "EquinoxSecurities",
+    "counter_party": "PlutoPartners",
+    "trade_date": "2025-07-05",
+    "matching_status": "Active",
+    "instrument": "Interest Rate Swap",
+    "notional_amount": 300000,
+    "currency": "INR"
+  },
+  {
+    "id": "T015",
+    "party": "MirageExchange",
+    "counter_party": "PhoenixInvest",
+    "trade_date": "2025-05-12",
+    "matching_status": "Stale",
+    "instrument": "Equity",
+    "notional_amount": 200000,
+    "currency": "GBP"
+  },
+  {
+    "id": "T016",
+    "party": "NimbusPartners",
+    "counter_party": "CrestHoldings",
+    "trade_date": "2025-06-24",
+    "matching_status": "Matched",
+    "instrument": "Credit Default Swap",
+    "notional_amount": 880000,
+    "currency": "EUR"
+  },
+  {
+    "id": "T017",
+    "party": "FalconGlobal",
+    "counter_party": "SunriseTrust",
+    "trade_date": "2025-06-18",
+    "matching_status": "Affirmed",
+    "instrument": "FX Swap",
+    "notional_amount": 740000,
+    "currency": "USD"
+  },
+  {
+    "id": "T018",
+    "party": "OrbitFinance",
+    "counter_party": "LegacyBank",
+    "trade_date": "2025-04-29",
+    "matching_status": "Unmatched",
+    "instrument": "Bond",
+    "notional_amount": 330000,
+    "currency": "JPY"
+  },
+  {
+    "id": "T019",
+    "party": "HorizonGroup",
+    "counter_party": "VertexExchange",
+    "trade_date": "2025-07-06",
+    "matching_status": "Active",
+    "instrument": "Equity Option",
+    "notional_amount": 560000,
+    "currency": "EUR"
+  },
+  {
+    "id": "T020",
+    "party": "TerraMarkets",
+    "counter_party": "AegisCapital",
+    "trade_date": "2025-05-07",
+    "matching_status": "Stale",
+    "instrument": "Interest Rate Future",
+    "notional_amount": 920000,
+    "currency": "INR"
+  },
+  {
+    "id": "T021",
+    "party": "NeptuneInvestments",
+    "counter_party": "AtlasSecurities",
+    "trade_date": "2025-05-02",
+    "matching_status": "Unmatched",
+    "instrument": "Bond",
+    "notional_amount": 520000,
+    "currency": "CAD"
+  },
+  {
+    "id": "T022",
+    "party": "SolarisCapital",
+    "counter_party": "HyperionTrust",
+    "trade_date": "2025-06-11",
+    "matching_status": "Affirmed",
+    "instrument": "Equity Option",
+    "notional_amount": 415000,
+    "currency": "USD"
+  },
+  {
+    "id": "T023",
+    "party": "PinnacleMarkets",
+    "counter_party": "NovaPartners",
+    "trade_date": "2025-07-02",
+    "matching_status": "Matched",
+    "instrument": "FX Swap",
+    "notional_amount": 390000,
+    "currency": "EUR"
+  },
+  {
+    "id": "T024",
+    "party": "StratosGroup",
+    "counter_party": "CelestialBank",
+    "trade_date": "2025-05-17",
+    "matching_status": "Stale",
+    "instrument": "Interest Rate Swap",
+    "notional_amount": 610000,
+    "currency": "INR"
+  },
+  {
+    "id": "T025",
+    "party": "EchoFinance",
+    "counter_party": "NimbusHoldings",
+    "trade_date": "2025-04-23",
+    "matching_status": "Active",
+    "instrument": "Credit Default Swap",
+    "notional_amount": 870000,
+    "currency": "GBP"
+  },
+  {
+    "id": "T026",
+    "party": "VoyagerTrust",
+    "counter_party": "CometCapital",
+    "trade_date": "2025-07-10",
+    "matching_status": "Matched",
+    "instrument": "Equity",
+    "notional_amount": 260000,
+    "currency": "USD"
+  },
+  {
+    "id": "T027",
+    "party": "PulsePartners",
+    "counter_party": "ZenithBank",
+    "trade_date": "2025-05-06",
+    "matching_status": "Affirmed",
+    "instrument": "Commodity Future",
+    "notional_amount": 445000,
+    "currency": "CAD"
+  },
+  {
+    "id": "T028",
+    "party": "RadiantGroup",
+    "counter_party": "NimbusSecurities",
+    "trade_date": "2025-06-26",
+    "matching_status": "Unmatched",
+    "instrument": "FX Forward",
+    "notional_amount": 725000,
+    "currency": "JPY"
+  },
+  {
+    "id": "T029",
+    "party": "InfinityMarkets",
+    "counter_party": "VertexHoldings",
+    "trade_date": "2025-07-04",
+    "matching_status": "Active",
+    "instrument": "Interest Rate Future",
+    "notional_amount": 310000,
+    "currency": "EUR"
+  },
+  {
+    "id": "T030",
+    "party": "AegisTrust",
+    "counter_party": "NovaGlobal",
+    "trade_date": "2025-04-30",
+    "matching_status": "Stale",
+    "instrument": "Bond",
+    "notional_amount": 990000,
+    "currency": "INR"
+  },
+  {
+    "id": "T031",
+    "party": "OrionExchange",
+    "counter_party": "LunarTrust",
+    "trade_date": "2025-05-26",
+    "matching_status": "Affirmed",
+    "instrument": "Bond",
+    "notional_amount": 740000,
+    "currency": "USD"
+  },
+  {
+    "id": "T032",
+    "party": "HelixMarkets",
+    "counter_party": "NimbusInvest",
+    "trade_date": "2025-07-03",
+    "matching_status": "Matched",
+    "instrument": "Commodity Swap",
+    "notional_amount": 495000,
+    "currency": "CAD"
+  },
+  {
+    "id": "T033",
+    "party": "NovaGroup",
+    "counter_party": "PhoenixSecurities",
+    "trade_date": "2025-06-12",
+    "matching_status": "Stale",
+    "instrument": "Interest Rate Swap",
+    "notional_amount": 820000,
+    "currency": "INR"
+  },
+  {
+    "id": "T034",
+    "party": "HyperionPartners",
+    "counter_party": "EchoTrust",
+    "trade_date": "2025-04-19",
+    "matching_status": "Active",
+    "instrument": "FX Forward",
+    "notional_amount": 380000,
+    "currency": "EUR"
+  },
+  {
+    "id": "T035",
+    "party": "ZodiacFinance",
+    "counter_party": "AstraHoldings",
+    "trade_date": "2025-05-10",
+    "matching_status": "Unmatched",
+    "instrument": "Equity",
+    "notional_amount": 275000,
+    "currency": "JPY"
+  },
+  {
+    "id": "T036",
+    "party": "VertexMarkets",
+    "counter_party": "CobaltPartners",
+    "trade_date": "2025-06-28",
+    "matching_status": "Affirmed",
+    "instrument": "Interest Rate Future",
+    "notional_amount": 630000,
+    "currency": "GBP"
+  },
+  {
+    "id": "T037",
+    "party": "SunTrustCapital",
+    "counter_party": "AuroraExchange",
+    "trade_date": "2025-05-04",
+    "matching_status": "Matched",
+    "instrument": "Credit Default Swap",
+    "notional_amount": 910000,
+    "currency": "EUR"
+  },
+  {
+    "id": "T038",
+    "party": "RadiantHoldings",
+    "counter_party": "LegacyFinance",
+    "trade_date": "2025-06-06",
+    "matching_status": "Stale",
+    "instrument": "Bond",
+    "notional_amount": 410000,
+    "currency": "USD"
+  },
+  {
+    "id": "T039",
+    "party": "CelestialTrust",
+    "counter_party": "PlutoMarkets",
+    "trade_date": "2025-04-27",
+    "matching_status": "Unmatched",
+    "instrument": "FX Swap",
+    "notional_amount": 570000,
+    "currency": "INR"
+  },
+  {
+    "id": "T040",
+    "party": "EchoPartners",
+    "counter_party": "QuantumCapital",
+    "trade_date": "2025-07-07",
+    "matching_status": "Active",
+    "instrument": "Equity Option",
+    "notional_amount": 690000,
+    "currency": "CAD"
+  },
+  {
+    "id": "T041",
+    "party": "AstraSecurities",
+    "counter_party": "SunrisePartners",
+    "trade_date": "2025-06-21",
+    "matching_status": "Matched",
+    "instrument": "Equity",
+    "notional_amount": 590000,
+    "currency": "GBP"
+  },
+  {
+    "id": "T042",
+    "party": "OrionHoldings",
+    "counter_party": "EchoMarkets",
+    "trade_date": "2025-04-15",
+    "matching_status": "Affirmed",
+    "instrument": "Bond",
+    "notional_amount": 720000,
+    "currency": "USD"
+  },
+  {
+    "id": "T043",
+    "party": "ZenithTrust",
+    "counter_party": "LegacyGroup",
+    "trade_date": "2025-05-25",
+    "matching_status": "Unmatched",
+    "instrument": "Commodity Future",
+    "notional_amount": 330000,
+    "currency": "JPY"
+  },
+  {
+    "id": "T044",
+    "party": "HeliosFinance",
+    "counter_party": "AtlasCapital",
+    "trade_date": "2025-07-09",
+    "matching_status": "Active",
+    "instrument": "FX Forward",
+    "notional_amount": 880000,
+    "currency": "EUR"
+  },
+  {
+    "id": "T045",
+    "party": "MirageGroup",
+    "counter_party": "VertexTrust",
+    "trade_date": "2025-06-03",
+    "matching_status": "Stale",
+    "instrument": "Interest Rate Swap",
+    "notional_amount": 475000,
+    "currency": "INR"
+  },
+  {
+    "id": "T046",
+    "party": "PulseExchange",
+    "counter_party": "CelestialHoldings",
+    "trade_date": "2025-05-09",
+    "matching_status": "Matched",
+    "instrument": "Credit Default Swap",
+    "notional_amount": 510000,
+    "currency": "CAD"
+  },
+  {
+    "id": "T047",
+    "party": "TerraTrust",
+    "counter_party": "PhoenixGroup",
+    "trade_date": "2025-06-16",
+    "matching_status": "Affirmed",
+    "instrument": "Interest Rate Future",
+    "notional_amount": 790000,
+    "currency": "USD"
+  },
+  {
+    "id": "T048",
+    "party": "RadiantFinance",
+    "counter_party": "StratosCapital",
+    "trade_date": "2025-04-26",
+    "matching_status": "Unmatched",
+    "instrument": "Equity Option",
+    "notional_amount": 350000,
+    "currency": "EUR"
+  },
+  {
+    "id": "T049",
+    "party": "OrbitPartners",
+    "counter_party": "ZodiacHoldings",
+    "trade_date": "2025-07-11",
+    "matching_status": "Active",
+    "instrument": "FX Swap",
+    "notional_amount": 960000,
+    "currency": "INR"
+  },
+  {
+    "id": "T050",
+    "party": "HorizonTrust",
+    "counter_party": "QuantumGroup",
+    "trade_date": "2025-05-15",
+    "matching_status": "Stale",
+    "instrument": "Bond",
+    "notional_amount": 640000,
+    "currency": "GBP"
+  }
+]

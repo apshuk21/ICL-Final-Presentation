@@ -1,0 +1,14 @@
+langchain
+langchain-core
+langchain-community
+langgraph
+pydantic
+ipykernel
+langchain-openai
+langchain-google-genai
+langchain-tavily
+langchain-groq
+bs4
+langchain-chroma
+uuid
+protobuf==3.20.*
