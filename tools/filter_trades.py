@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import List, Optional
-from data.trades_schema import TradesSchema
+from data.trades_schema import TradesSchema, TradesResponse
 from langchain_core.tools import tool # type: ignore
 import json
 import os
@@ -13,7 +13,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 json_path = os.path.join(current_dir, '..', 'data', 'trades.json')
 
 @tool
-def filter_trades(start_date: str, end_date: str, matching_status: Optional[str] = None) -> List[TradesSchema]:
+def filter_trades(start_date: str, end_date: str, matching_status: Optional[str] = None) -> TradesResponse:
     """
     Filters a list of trade records based on a date range and optional matching status.
 
@@ -44,7 +44,8 @@ def filter_trades(start_date: str, end_date: str, matching_status: Optional[str]
                 if matching_status is None or trade["matching_status"] == matching_status:
                     filtered.append(trade)
 
-    return filtered
+    filtered = [TradesSchema.model_validate(trade) for trade in filtered]
+    return TradesResponse(result=filtered)
 
 
 if (__name__ == '__main__'):
