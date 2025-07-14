@@ -12,3 +12,6 @@ bs4
 langchain-chroma
 uuid
 protobuf==3.20.*
+streamlit
+watchdog
+pandas
